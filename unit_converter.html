@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNIT CONVERTER</title>
+    <link rel="stylesheet" href="unit_converter.css">
+</head>
+<body>
+  <div class="converter-container"> 
+    <h1>Length Converter</h1>
+    <div class="input-container">
+      <input type="number" id="lengthInput" placeholder="Enter length in meters">
+      <select id="unitSelect">
+        <option value="cm">Centimeters (cm)</option>
+        <option value="km">Kilometers (km)</option>
+        <option value="mm">Milliimeters (mm)</option>
+      </select>
+      <button id="convertButton">Convert</button>
+    </div>
+      <div class="result-container">
+        <p id="result"></p>
+    </div>
+  </div>
+  <script src="unit_converter.js"></script>
+</body>
+</html>
